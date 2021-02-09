@@ -1,39 +1,365 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
+    <line>
+      <![CDATA[admin manager]]>
+    </line>
+    <line>
+      <![CDATA[ADMIN manager]]>
+    </line>
+    <line>
+      <![CDATA[ADMIn manager]]>
+    </line>
+    <line>
+      <![CDATA[ADMiN manager]]>
+    </line>
+    <line>
+      <![CDATA[ADmIN manager]]>
+    </line>
+    <line>
+      <![CDATA[AdMIN manager]]>
+    </line>
+    <line>
+      <![CDATA[aDMIN manager]]>
+    </line>
+    <line>
+      <![CDATA[trainee trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRAINEE trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRAINEe trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRAINeE trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRAInEE trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRAiNEE trainee]]>
+    </line>
+    <line>
+      <![CDATA[TRaINEE trainee]]>
+    </line>
+    <line>
+      <![CDATA[TrAINEE trainee]]>
+    </line>
+    <line>
+      <![CDATA[tRAINEE trainee]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="37289" started-at="2021-02-05T16:48:30 IST" finished-at="2021-02-05T16:49:07 IST">
+  <suite name="Default suite" duration-ms="973" started-at="2021-02-06T22:50:45 IST" finished-at="2021-02-06T22:50:46 IST">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="22343" started-at="2021-02-05T16:48:30 IST" finished-at="2021-02-05T16:48:52 IST">
-      <class name="demoTestNg.Democross">
-        <test-method status="PASS" signature="TC1(java.lang.String)[pri:0, instance:demoTestNg.Democross@3d99d22e]" name="TC1" duration-ms="22280" started-at="2021-02-05T16:48:30 IST" finished-at="2021-02-05T16:48:52 IST">
+    <test name="Default test" duration-ms="973" started-at="2021-02-06T22:50:45 IST" finished-at="2021-02-06T22:50:46 IST">
+      <class name="demoTestNg.Demoreadata">
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="10" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[admin manager]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-      </class> <!-- demoTestNg.Democross -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="37289" started-at="2021-02-05T16:48:30 IST" finished-at="2021-02-05T16:49:07 IST">
-      <class name="demoTestNg.Democross">
-        <test-method status="PASS" signature="TC1(java.lang.String)[pri:0, instance:demoTestNg.Democross@4e7dc304]" name="TC1" duration-ms="37235" started-at="2021-02-05T16:48:30 IST" finished-at="2021-02-05T16:49:07 IST">
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[ADMIN manager]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-      </class> <!-- demoTestNg.Democross -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMIn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ADMIn manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="3" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMiN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ADMiN manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADmIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ADmIN manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdMIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[AdMIN manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="3" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aDMIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[aDMIN manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="1" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[trainee trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRAINEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRAINEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="2" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRAINEe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRAINEe trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="1" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRAINeE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRAINeE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="5" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRAInEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRAInEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="1" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRAiNEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRAiNEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="1" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRaINEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TRaINEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="1" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TrAINEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TrAINEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:demoTestNg.Demoreadata@32709393]" name="tc1" duration-ms="3" started-at="2021-02-06T22:50:46 IST" data-provider="demo" finished-at="2021-02-06T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tRAINEE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tRAINEE trainee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- demoTestNg.Demoreadata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
